@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Abu's Treasure Hunt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Indie+Flower" rel="stylesheet">
+    <link rel="icon" href="./assets/images/jasmine.png" type="image">
+</head>
+
+<body>
+    <!--Game Container to hold-->
+    <div id="container">
+
+        <!--Heading-->
+        <h1>Abu's Hunt For Gems!!</h1>
+        <!--instructions for game container-->
+        <div id="instruction-box">
+            <h3>Instructions:</h3>
+
+            <p>
+                Check the target number box each round for your goal! </p>
+            <p>
+                There are four gems from the Cave of Wonders below! 
+                Click on one, each will be assigned a random value, and try to reach your target number!!
+                 Be careful, don't go over!</p>
+            <p>
+                Pay attention to the values so you don't go over, or you lose!</p>
+            <p>
+               After each round, new values will be assigned to both the target and gems! Good luck!</p>
+        </div>
+
+
+
+        <!--////////////////////////////////////JS/GAME/////////////////-->
+
+
+
+        <!--Target Number-->
+        <div class="box">
+
+            <h3>
+                <div class="scores">
+                    Target Number:
+                    <span id="targetnum"></span>
+                </div>
+                <div class="scores">
+                    Your Number:
+                    <span id="yournum"></span>
+                </div>
+            </h3>
+
+            <!--player score-->
+        </div>
+
+        <!--Click images:-->
+        <div class="gembox">
+
+            <img id="red" src="assets/images/abu_ruby.gif">
+            <img id="blue" src="assets/images/abu_coins.gif">
+            <img id="green" src="assets/images/abu_jewels.gif">
+            <img id="diamond" src="assets/images/Golden_Scarab_Beetle_Magic.jpg">
+        </div>
+
+        <!--Win/lose-->
+        <div class="box1">
+            <h3>Wins:
+                <span id="wins"></span>
+            </h3>
+        </div>
+        <div class="box1">
+            <h3>Losses:
+                <span id="loss"></span>
+            </h3>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
