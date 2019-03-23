@@ -5,7 +5,7 @@ h1 {
     font-size: 50px;
     text-align: center;
     text-decoration: underline goldenrod;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Berkshire Swash', cursive;
     color: whitesmoke;
 }
 
@@ -36,7 +36,7 @@ background-color: blue; opacity: .80;
 .scores {
     padding: 20px;
     margin:10px;
-    font-family: 'Indie Flower', cursive; color:whitesmoke;
+    font-family: 'Berkshire Swash', cursive; color:whitesmoke;
     background-color: blueviolet;
     border: solid 5px goldenrod;
 }
@@ -56,7 +56,7 @@ span{
     padding-right: 40px;
     margin-bottom: 5%;
     text-align: center;
-    font-family: 'Indie Flower', cursive; color:whitesmoke;
+    font-family: 'Berkshire Swash', cursive; color:whitesmoke;
 }
 
 .gembox {
