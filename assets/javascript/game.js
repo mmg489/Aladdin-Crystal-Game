@@ -5,22 +5,22 @@ $(document).ready(function () {
     var gems = {
         redGem:
         {
-            color: "red",
+          
             value: 0
         },
         blueGem:
         {
-            color: "blue",
+            
             value: 0
         },
         greenGem:
         {
-            color: "green",
+            
             value: 0
         },
         diamondGem:
         {
-            color: "diamond",
+            
             value: 0
         },
     };
@@ -65,7 +65,7 @@ $(document).ready(function () {
         if (counter > targetNum) {
             alert("Abu says Thanks a lot! He's still broke!");
 
-            console.log("LOSE!");
+            console.log("you lost!");
             losses++;
             $("#loss").html(losses);
             start();
@@ -73,7 +73,7 @@ $(document).ready(function () {
         }
         else if (counter == targetNum) {
             alert("Abu says thank you! He's Rich!");
-            console.log("WIN!");
+            console.log("you won!");
             wins++;
             $("#wins").html(wins);
             start();
