@@ -90,10 +90,10 @@ $(document).ready(function () {
     $("#blue").on("click", function () {
         adding(gems.blueGem);
     });
-    $("#diamond").on("click", function () {
+    $("#green").on("click", function () {
         adding(gems.greenGem);
     });
-    $("#green").on("click", function () {
+    $("#diamond").on("click", function () {
         adding(gems.diamondGem);
     });
 
