@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
-    //VARIABLES 
-    //-------------------------------------------
+    // variables**
+    
     var gems = {
         redGem:
         {
@@ -52,7 +52,7 @@ $(document).ready(function () {
     };
 
     //-------------------------------------
-    //NEW FUNCTION (ADD VALUES)
+    //Function for adding values
     function adding(gems) {
         counter = counter + gems.value;
         $("#yournum").html(counter);
@@ -60,7 +60,7 @@ $(document).ready(function () {
         console.log("Your Score is  " + counter);
     }
     //-----------------------------------
-    //another function
+    // function 2 for alerts
     function check() {
         if (counter > targetNum) {
             alert("Abu says Thanks a lot! He's still broke!");
