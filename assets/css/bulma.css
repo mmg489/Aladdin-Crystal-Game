@@ -346,9 +346,9 @@ h5,
 h6 {
   margin: 15px;
   padding: 10px;
-  color: purple;
+  color: whitesmoke;
   text-align: center;
-  background-image: radial-gradient(#457845, #999999);
+  background-image: repeating-linear-gradient(#6a0dad, #d4af37);
 }
 
 h1,
@@ -362,10 +362,10 @@ h6 {
 }
 
 .scores {
-  color: purple;
+  color: white;
   font-size: large;
   padding: 30px;
-  background-color: #248fd6;
+  background-image: repeating-linear-gradient(#6a0dad, #d4af37);
 }
 
 ul {
