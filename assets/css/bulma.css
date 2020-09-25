@@ -351,7 +351,10 @@ h6 {
   background-image: repeating-linear-gradient(#6a0dad, #d4af37);
 }
 
-h1,
+h1 {
+  font-size: 4rem;
+}
+
 h2,
 h3,
 h4,
@@ -366,6 +369,10 @@ h6 {
   font-size: large;
   padding: 30px;
   background-image: repeating-linear-gradient(#6a0dad, #d4af37);
+}
+
+.box {
+  background-color: black;
 }
 
 ul {
